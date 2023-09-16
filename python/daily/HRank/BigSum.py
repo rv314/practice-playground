@@ -10,7 +10,7 @@ Complete the aVeryBigSum function in the editor below. It must return the sum of
 
 
 def aVeryBigSum(ar):
-    # Write your code here
+    
     num = 0
     for i in ar:
         num += i
