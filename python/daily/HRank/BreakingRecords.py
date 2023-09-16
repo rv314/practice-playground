@@ -1,20 +1,16 @@
-#!/bin/python3
-
 import math
 import os
 import random
 import re
 import sys
 
-#
-# Complete the 'breakingRecords' function below.
-#
+
 # The function is expected to return an INTEGER_ARRAY.
 # The function accepts INTEGER_ARRAY scores as parameter.
-#
+
 
 def breakingRecords(scores):
-    # Write your code here
+    
     low_score = scores[0]
     high_score = scores[0]
     low_scores = list()

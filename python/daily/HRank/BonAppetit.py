@@ -14,7 +14,7 @@ import sys
 #
 
 def bonAppetit(bill, k, b):
-    # Write your code here
+    
     bill.pop(k)
     actual = sum(bill) // 2
     
